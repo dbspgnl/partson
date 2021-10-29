@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar pt-3">
-        <FontAwesomeIcon icon={faBars} color="#e5e5e5" size="lg" transform="bottom-4"/>
+        <FontAwesomeIcon icon={faBars} color="#e5e5e5" size="lg" transform="bottom-4" className="side-icon"/>
+        <div className="text-white side-menu">메뉴1</div>
       </div>
 
 

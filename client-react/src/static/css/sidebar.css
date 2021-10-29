@@ -12,3 +12,12 @@
     background-color:#212121;
     transition: 1s;
 }
+.sidebar:hover>.side-icon{
+    display: none;
+}
+.side-menu{
+    display: none;
+}
+.sidebar:hover>.side-menu{
+    display: contents;
+}
